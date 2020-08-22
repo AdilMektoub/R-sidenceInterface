@@ -1,5 +1,8 @@
 package Interface;
 
+import ClassABSTRAITRE.Employés;
+import ClassABSTRAITRE.Residents;
+
 public class AgentAcceuil extends Personnel implements Employe {
 
 	
@@ -49,6 +52,85 @@ public class AgentAcceuil extends Personnel implements Employe {
 	
 	}
 	
+//	Classe ABSTRAITRE;
+//
+//	public class AgentAccueil extends Employés {
+//
+//		private float heuresTravailles;
+//		private String contrats;
+//		private String avertissement;
+//		private int chambres;
+//
+//		
+//
+//		//////////////////////////
+//		@Override
+//		void Declarer(float heuresTravailles) {
+//			// TODO Auto-generated method stub
+//			System.out.println("Mes heures de travailles d'agent d'accueil");
+//		}
+//		@Override
+//		void Negocier(String contrats) {
+//			// TODO Auto-generated method stub
+//			System.out.println("Négocier mon contrat d'agent d'accueil");
+//		}
+//		@Override
+//		void FaireAvertissement(String avertissement, Residents residents) {
+//			// TODO Auto-generated method stub
+//			System.out.println("Faire un avertissement");
+//		}
+//		
+//		//////////////////////////////
+//		void AffectChambres(int chambres) {
+//			System.out.println("votre chambre est la numeros 8");
+//		}
+//		
+//		
+//		/////////////////////////////////////////
+//		public AgentAccueil(float heuresTravailles, String contrats, String avertissement, float heuresTravailles2,
+//				String contrats2, String avertissement2, int chambres) {
+//			super(heuresTravailles, contrats, avertissement);
+//			heuresTravailles = heuresTravailles2;
+//			contrats = contrats2;
+//			avertissement = avertissement2;
+//			this.chambres = chambres;
+//		}
+//		
+//		
+//		///////////////////////////////////////
+//		public float getHeuresTravailles() {
+//			return heuresTravailles;
+//		}
+//
+//		public void setHeuresTravailles(float heuresTravailles) {
+//			this.heuresTravailles = heuresTravailles;
+//		}
+//		public String getContrats() {
+//			return contrats;
+//		}
+//		public void setContrats(String contrats) {
+//			this.contrats = contrats;
+//		}
+//		public String getAvertissement() {
+//			return avertissement;
+//		}
+//		public void setAvertissement(String avertissement) {
+//			this.avertissement = avertissement;
+//		}	
+//		public int getChambres() {
+//			return chambres;
+//		}
+//		public void setChambres(int chambres) {
+//			this.chambres = chambres;
+//		}
+//		
+//		
+//		///////////////////////////////
+//		@Override
+//		public String toString() {
+//			return "AgentAccueil [heuresTravailles=" + heuresTravailles + ", contrats=" + contrats + ", avertissement="
+//					+ avertissement + ", chambres=" + chambres + "]";
+//		}
 	
 
 }

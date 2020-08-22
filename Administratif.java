@@ -1,5 +1,8 @@
 package Interface;
 
+import ClassABSTRAITRE.Employés;
+import ClassABSTRAITRE.Residents;
+
 public class Administratif extends Personnel implements Employe{
 	
 	
@@ -50,7 +53,90 @@ public class Administratif extends Personnel implements Employe{
 		return "Administratif [ nom=" + getNom() + ", prenom="
 				+ getPrenom() + ", nbre heures=" + getHeuresTravailles() +  "]";
 	}
-
-	
-	
 }
+
+
+//Classe ABSTRAITRE;
+//
+//public class EmployésAdministratifs extends Employés {
+//
+//	
+//	private float heuresTravailles;
+//	private String contrats;
+//	private String avertissement;
+//	private float salaires;
+//	
+//
+//
+//	////////////////////////////////
+//	@Override
+//	void Declarer(float heuresTravailles) {
+//		// TODO Auto-generated method stub
+//		System.out.println("Mes heures de travailles d'employés administratif");
+//	}
+//	@Override
+//	void Negocier(String contrats) {
+//		// TODO Auto-generated method stub
+//		System.out.println("Négocier mon contrat d'employés administratif");
+//	}
+//	@Override
+//	void FaireAvertissement(String avertissement) {
+//		// TODO Auto-generated method stub
+//		System.out.println("Faire un avertissement");
+//	}
+//	
+//	////////////////////////////////
+//	void VerseSalaires(String avertissement) {
+//		System.out.println("votre salaire est de 2000$");
+//	}
+//	
+//	
+//	/////////////////////////////
+//	public EmployésAdministratifs(float heuresTravailles, String contrats, String avertissement,
+//			float heuresTravailles2, String contrats2, String avertissement2, float salaires) {
+//		super(heuresTravailles, contrats, avertissement);
+//		heuresTravailles = heuresTravailles2;
+//		contrats = contrats2;
+//		avertissement = avertissement2;
+//		this.salaires = salaires;
+//	}
+//	
+//	
+//	///////////////////////////////	
+//	public float getSalaires() {
+//		return salaires;
+//	}
+//	public void setSalaires(float salaires) {
+//		this.salaires = salaires;
+//	}
+//	public float getHeuresTravailles() {
+//		return heuresTravailles;
+//	}
+//	public void setHeuresTravailles(float heuresTravailles) {
+//		this.heuresTravailles = heuresTravailles;
+//	}
+//	public String getContrats() {
+//		return contrats;
+//	}
+//	public void setContrats(String contrats) {
+//		this.contrats = contrats;
+//	}
+//	public String getAvertissement() {
+//		return avertissement;
+//	}
+//	public void setAvertissement(String avertissement) {
+//		this.avertissement = avertissement;
+//	}
+//	
+//	
+//	/////////////////////////////
+//	@Override
+//	public String toString() {
+//		return "EmployésAdministratifs [heuresTravailles=" + heuresTravailles + ", contrats=" + contrats
+//				+ ", avertissement=" + avertissement + "]";
+//	}
+//	@Override
+//	void FaireAvertissement(String avertissement, Residents résidents) {
+//		// TODO Auto-generated method stub
+//		
+//	}
